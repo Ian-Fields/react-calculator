@@ -1,0 +1,21 @@
+button, input, select{
+  font-size: 18px;
+  outline: none;
+}
+body{
+  background-color: #06A2C9;
+}
+
+button, input{
+  border-radius: 4px;
+
+}
+
+button, select{
+  background-color: lightgrey;
+}
+
+input{
+  padding: 4px 4px;
+  margin: 0 12px;
+}
