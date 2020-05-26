@@ -57,7 +57,7 @@ export default () => {
       </select>
       <input type="text" onChange={updateNum2} />
       <button type="button" className="equals" onClick={updateAnswer}>=</button>
-      <input type="answer" defaultValue={answer} />
+      <input type="answer" defaultValue={answer} disabled />
       <div className="alert">{alert ? `${alert}` : null}</div>
     </div>
   )
